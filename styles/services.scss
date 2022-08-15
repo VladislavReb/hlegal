@@ -1,0 +1,51 @@
+.hh__wrapper {
+  &__logo {
+    .normal__logo {
+      display: flex;
+      align-items: flex-start;
+      gap: 4px;
+
+      &__a {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        color: $mt_color;
+      }
+    }
+  }
+}
+
+.services__3 {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hh__wrapper {
+    &__info {
+      .hidden__logo {
+        display: flex;
+        align-items: flex-start;
+        gap: 4px;
+
+        &__a {
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 44px;
+          color: $mt_color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .hh__wrapper {
+    .normal__logo {
+      display: none;
+    }
+  }
+
+  .services__3 {
+    margin-top: 30px;
+  }
+}

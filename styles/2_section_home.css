@@ -1,0 +1,91 @@
+.second__section {
+  padding-bottom: 60px;
+}
+.second__section .team {
+  background: #F5F5FA;
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.second__section .team__img {
+  max-width: 400px;
+  max-height: 344px;
+}
+.second__section .team__img image {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.second__section .team__text {
+  padding: 30px;
+}
+.second__section .team__text__p {
+  padding-bottom: 30px;
+}
+.second__section .team__text__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+  padding-bottom: 3px;
+}
+.second__section .team__text__position {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+.second__section .next__pg {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.next__pg__eclipse__svg .circle__2 {
+  fill: #24A3FF;
+}
+
+.next__pg__eclipse__svg:hover .circle__2 {
+  fill: #040a81;
+}
+
+@media screen and (min-width: 1920px) {
+  .second__section .team {
+    max-height: 298px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .second__section .team__img {
+    max-height: 528px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .second__section .team {
+    flex-direction: column;
+  }
+  .second__section .team__img {
+    max-width: 648px;
+    max-height: 500px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .second__section {
+    padding-bottom: 30px;
+  }
+  .second__section .team {
+    flex-direction: column;
+  }
+  .second__section .team__img {
+    max-width: 315px;
+    max-height: 500px;
+  }
+
+  .next__pg__eclipse__svg:focus .circle__2 {
+    fill: #040a81;
+  }
+}
+
+/*# sourceMappingURL=2_section_home.css.map */

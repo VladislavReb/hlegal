@@ -1,0 +1,91 @@
+.third__section .trust__us__h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.third__section .trust__us__company {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.third__section .trust__us__company__name {
+  min-height: 120px;
+  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third__section .trust__us__company .name__1 {
+  background: #1C4280;
+}
+.third__section .trust__us__company .name__2 {
+  background: #143646;
+}
+.third__section .trust__us__company .name__3 {
+  background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+}
+.third__section .trust__us__company .name__4 {
+  background: #9E4DC3;
+}
+.third__section .trust__us__company .name__5 {
+  background: #FD9339;
+}
+.third__section .trust__us__company .name__6 {
+  background: #E2E2E4;
+}
+.third__section .trust__us__company .name__7 {
+  background: #C71C36;
+}
+.third__section .trust__us__company .name__8 {
+  background: #DCF3F9;
+}
+.third__section .trust__us__company .name__9 {
+  background: #EAEAEA;
+}
+.third__section .trust__us__company .name__10 {
+  background: #282240;
+}
+.third__section .trust__us__company .name__11 {
+  background: #1D4568;
+}
+.third__section .trust__us__company .name__12 {
+  background: #000000;
+}
+
+@media screen and (min-width: 1920px) {
+  .third__section .trust__us {
+    display: block;
+    margin: 0 auto 60px;
+    max-width: 1720px;
+  }
+  .third__section .trust__us .trust__us__company .name__1 {
+    border-radius: 8px 0 0 0;
+  }
+  .third__section .trust__us .trust__us__company .name__4 {
+    border-radius: 0 8px 0 0;
+  }
+  .third__section .trust__us .trust__us__company .name__9 {
+    border-radius: 0 0 0 8px;
+  }
+  .third__section .trust__us .trust__us__company .name__12 {
+    border-radius: 0 0 8px 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third__section .trust__us__company__name {
+    min-height: 120px;
+    min-width: 33.33%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .third__section .trust__us__company__name {
+    min-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=3_section_home.css.map */
